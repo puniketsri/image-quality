@@ -1,0 +1,58 @@
+# Virtual environment — NEVER commit this
+venv/
+env/
+.env/
+*.venv
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# ML model files — too large for GitHub
+models/*.pth
+models/*.pt
+models/*.pkl
+
+# Virtual environment — NEVER commit this
+venv/
+env/
+.env/
+*.venv
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# ML model files — too large for GitHub
+models/*.pth
+models/*.pt
+models/*.pkl
+
+# Raw and augmented image data — too large for GitHub
+data/raw/
+data/augmented/
+
+# Keep labeled folder structure but not the images
+data/labeled/**/*.jpg
+data/labeled/**/*.jpeg
+data/labeled/**/*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
