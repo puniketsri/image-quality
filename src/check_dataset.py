@@ -9,7 +9,7 @@ print("\n── Dataset status ────────────────�
 total = 0
 for cls in classes:
     d = LABELED_DIR / cls
-    n = len(list(d.glob("*.jpg"))) if d.exists() else 0
+    n = len(list(d.glob("*.jpg"))) + len(list(d.glob("*.jpeg"))) if d.exists() else 0
     total += n
     pct   = min(n / TARGET, 1.0)
     bar   = ("█" * int(pct * 20)).ljust(20)
